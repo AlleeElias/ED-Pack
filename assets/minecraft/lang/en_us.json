@@ -1,7 +1,7 @@
 {
   "language.name": "English",
   "language.region": "United States",
-  "language.code": "en_us",S
+  "language.code": "en_us",
   "narrator.button.accessibility": "Accessibility",
   "narrator.button.language": "Language",
   "narrator.button.difficulty_lock": "Difficulty lock",
@@ -1767,7 +1767,7 @@
   "item.minecraft.stone_shovel": "Stone Shovel",
   "item.minecraft.stone_pickaxe": "Stone Pickaxe",
   "item.minecraft.stone_axe": "Stone Axe",
-  "item.minecraft.diamond_sword": "Orange Lightsaber",
+  "item.minecraft.diamond_sword": "Diamond Sword",
   "item.minecraft.diamond_shovel": "Diamond Shovel",
   "item.minecraft.diamond_pickaxe": "Diamond Pickaxe",
   "item.minecraft.diamond_axe": "Diamond Axe",
@@ -2135,7 +2135,7 @@
   "item.minecraft.netherite_pickaxe": "Netherite Pickaxe",
   "item.minecraft.netherite_hoe": "Netherite Hoe",
   "item.minecraft.netherite_shovel": "Netherite Shovel",
-  "item.minecraft.netherite_sword": "Super Saber",
+  "item.minecraft.netherite_sword": "Netherite Sword",
   "item.minecraft.warped_fungus_on_a_stick": "Warped Fungus on a Stick",
   "item.minecraft.glow_ink_sac": "Glow Ink Sac",
   "item.minecraft.glow_item_frame": "Glow Item Frame",
