@@ -1,0 +1,17 @@
+{
+	"texture": "textures/entity/tridentsaber.png",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "group",
+			"id": "group",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [7, 12, 8, 2, 20, 2], "textureOffset": [8, 0, 2, 20]},
+				{"coordinates": [7, 5, 8, 2, 7, 2], "textureOffset": [16, 0, 2, 20]},
+				{"coordinates": [7, -15, 8, 2, 20, 2], "textureOffset": [0, 0, 2, 20]}
+			]
+		}
+	]
+}
