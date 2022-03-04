@@ -1,0 +1,55 @@
+{
+	"credit": "Saber by Allee",
+	"texture_size": [32, 32],
+	"textures": {
+		"texture":"./diamondsaber",
+		"0": "./diamondsaber",
+		"particle": "./diamondsaber"
+	},
+	"elements": [
+		{
+			"name": "middle",
+			"from": [7, 0, 7],
+			"to": [8, 20, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 1, 10], "texture": "#0"},
+				"south": {"uv": [1, 0, 1.5, 10], "texture": "#0"},
+				"west": {"uv": [1.5, 0, 2, 10], "texture": "#0"},
+				"up": {"uv": [3.5, 3.5, 3, 3], "texture": "#0"},
+				"down": {"uv": [4, 0, 3.5, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hilt",
+			"from": [7, 5, 6],
+			"to": [8, 6, 9],
+			"faces": {
+				"north": {"uv": [3.5, 1.5, 4, 2], "texture": "#0"},
+				"east": {"uv": [2, 2, 3.5, 2.5], "texture": "#0"},
+				"south": {"uv": [3.5, 2, 4, 2.5], "texture": "#0"},
+				"west": {"uv": [2, 2.5, 3.5, 3], "texture": "#0"},
+				"up": {"uv": [2.5, 4.5, 2, 3], "texture": "#0"},
+				"down": {"uv": [3, 3, 2.5, 4.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Hil2",
+			"from": [6, 5, 7],
+			"to": [9, 6, 8],
+			"faces": {
+				"north": {"uv": [2, 0, 3.5, 0.5], "texture": "#0"},
+				"east": {"uv": [3.5, 0.5, 4, 1], "texture": "#0"},
+				"south": {"uv": [2, 0.5, 3.5, 1], "texture": "#0"},
+				"west": {"uv": [3.5, 1, 4, 1.5], "texture": "#0"},
+				"up": {"uv": [3.5, 1.5, 2, 1], "texture": "#0"},
+				"down": {"uv": [3.5, 1.5, 2, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2.75, 2]
+		}
+	}
+}
