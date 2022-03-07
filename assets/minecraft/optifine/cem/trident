@@ -1,5 +1,5 @@
 {
-	"texture": "textures/entity/tridentsaber.png",
+	"texture": "tridentsaber.png",
 	"textureSize": [32, 32],
 	"models": [
 		{
