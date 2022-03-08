@@ -8,8 +8,8 @@
 	"elements": [
 		{
 			"name": "saber",
-			"from": [7, 6, 7],
-			"to": [8, 26, 8],
+			"from": [7, 5.5, 7],
+			"to": [8, 26.5, 8],
 			"faces": {
 				"north": {"uv": [0, 0, 0.5, 10], "texture": "#0"},
 				"east": {"uv": [0.5, 0, 1, 10], "texture": "#0"},
@@ -21,8 +21,9 @@
 		},
 		{
 			"name": "hilt",
-			"from": [7, 5, 6],
-			"to": [8, 6, 9],
+			"from": [6, 4.8, 6.75],
+			"to": [9, 6, 8.25],
+			"rotation": {"angle": 0, "axis": "z", "origin": [8, 5, 7.5]},
 			"faces": {
 				"north": {"uv": [3, 4, 3.5, 4.5], "texture": "#0"},
 				"east": {"uv": [3, 0, 4.5, 0.5], "texture": "#0"},
@@ -34,12 +35,12 @@
 		},
 		{
 			"name": "Hil2",
-			"from": [6, 5, 7],
-			"to": [9, 6, 8],
+			"from": [4, 5, 7],
+			"to": [11, 5.75, 8],
 			"faces": {
 				"north": {"uv": [3.5, 1, 5, 1.5], "texture": "#0"},
 				"east": {"uv": [3.5, 4, 4, 4.5], "texture": "#0"},
-				"south": {"uv": [3.5, 1.5, 5, 2], "texture": "#0"},
+				"south": {"uv": [3.5, 2.5, 5, 3], "texture": "#0"},
 				"west": {"uv": [4, 3.5, 4.5, 4], "texture": "#0"},
 				"up": {"uv": [5, 2.5, 3.5, 2], "texture": "#0"},
 				"down": {"uv": [5, 2.5, 3.5, 3], "texture": "#0"}
@@ -61,11 +62,36 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, 2.75, 2]
+			"rotation": [0, 90, 0],
+			"translation": [0.5, 4, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.5, 3.75, 1.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [1.5, 3.25, -0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [1.5, 3.25, -0.5]
+		},
+		"gui": {
+			"rotation": [0, 0, -45.25],
+			"translation": [-1.5, -2.25, 0]
 		},
 		"fixed": {
 			"rotation": [0, 0, 45],
 			"translation": [3.75, -3.25, 0]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3]
+		}
+	]
 }
